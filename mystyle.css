@@ -220,6 +220,10 @@ footer{
         margin-bottom: 10px;
         margin-top: 10px;
     }
+
+    body{
+        font-size: 1.8rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -249,5 +253,9 @@ footer{
 
     .title div{
         top: 45%;
+    }
+
+    .info{
+        margin-left: 20px;
     }
 }
