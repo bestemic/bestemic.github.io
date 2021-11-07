@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Przemysław Pawlik">
+    <title>KOTKOWO</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <header>
+        <nav class="menu" id="menu">
+            <a href="index.html">Home</a>
+            <a href="podopieczni.html">Podopieczni</a>
+            <a href="o-nas.html">O nas</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+            <a href="javascript:void(0);" class="icon" onclick="changeMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+
+        <div class="title">
+            <img src="images/cat-title.png">
+            <div>
+                <h1><a href="index.html">KOTKOWO</a></h1>
+                <h3>Kontakt z kociakami</h3>
+            </div>
+        </div>
+    </header>
+
+    <article class="kontakt">
+        <div class="info">
+
+            <p>
+            <h4> Skontaktuj się z nami</h4>
+            Telefon: 123456789<br/>
+            E-mail: <a href="mailto:kontakt@kotkowo.com">kontakt@kotkowo.com</a><br><br>
+            <h4>Adres</h4>
+            Profesora Stanisława Łojasiewicza 11<br/>
+            30-348 Kraków
+            </p>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.0223952669194!2d19.903842415716202!3d50.02967617941952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165d2337a66f81%3A0xb0d267fd00b6d46e!2sProfesora%20Stanis%C5%82awa%20%C5%81ojasiewicza%2011%2C%2030-348%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1636289111798!5m2!1spl!2spl"></iframe>
+
+        <div class="container">
+            <form>
+                <label for="fname">Imię</label>
+                <input type="text" id="fname" name="firstname" placeholder="Twoje imię..">
+
+                <label for="lname">Nazwisko</label>
+                <input type="text" id="lname" name="lastname" placeholder="Twoje nazwisko..">
+
+                <label for="subject">Wiadomość</label>
+                <textarea id="subject" name="subject" placeholder="Napisz swoją wiadomość.." style="height:200px"></textarea>
+
+                <input type="submit" value="Wyślij">
+            </form>
+        </div>
+
+    </article>
+
+
+    <footer>
+        <p>Schronisko dla kotów KOTKOWO.</p>
+        <p>Copyright © 2021 Wszelkie prawa zastrzeżone.</p>
+    </footer>
+
+
+    <script>
+        function changeMenu() {
+            var x = document.getElementById("menu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+
+</body>
+</html>
