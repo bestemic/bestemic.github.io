@@ -31,24 +31,28 @@
         </div>
     </header>
 
-    <p>kkdjadjsldj</p>
+    <article class="feedme">
 
-    <div class="xd">
-        <article>
-            <p>Teskt</p>
-            <p>Teskt</p>
-            <p>Teskt</p>
 
-            <p>Teskt</p>
-            <p>Teskt</p>
+        <img id="iImg" src="images/feeded.jpg">
 
-            <p>Teskt</p>
-            <p>Teskt</p>
-            <p>Teskt</p>
-            <p>Teskt</p>
-            <p>Teskt</p>
-        </article>
-    </div>
+        <div id="center">
+            <button id="iButton">Nakarm mnie</button>
+        </div>
+
+    </article>
+
+    <article>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+        <p> Tekst</p>
+    </article>
 
     <footer>
         <p>Schronisko dla kotów KOTKOWO.</p>
@@ -65,6 +69,28 @@
                 x.className = "menu";
             }
         }
+    </script>
+
+    <script>
+        const button = document.querySelector("#iButton")
+        function feedCat() {
+            document.getElementById('iImg').src = 'images/mniam.jpg';
+
+            var el = document.getElementById('center');
+            el.remove();
+        }
+
+        function onCat() {
+            document.getElementById('iImg').src = 'images/feedme.jpg';
+        }
+
+        function offCat() {
+            document.getElementById('iImg').src = 'images/feeded.jpg';
+        }
+
+        button.addEventListener('click', feedCat)
+        button.addEventListener('mouseenter', onCat)
+        button.addEventListener('mouseleave', offCat)
     </script>
 
 </body>

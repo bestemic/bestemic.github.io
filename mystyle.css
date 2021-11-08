@@ -108,6 +108,39 @@ footer{
     color: white;
 }
 
+
+/*Indeks*/
+
+.feedme{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.feedme img{
+    max-width: 586px;
+    width: 100%;
+
+}
+
+#center{
+    display: flex;
+    justify-content: center;
+}
+
+.feedme button{
+    background-color: #cd7600;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*Koniec indeks*/
+
+
 /*O nas*/
 
 .onas{
