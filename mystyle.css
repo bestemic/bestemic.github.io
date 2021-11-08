@@ -134,6 +134,31 @@ footer{
 
 /*O nas koniec*/
 
+/*Podopieczni*/
+
+.podopieczni{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.kot{
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    margin: 0 auto 30px;
+}
+
+.kot img{
+    width: 100%;
+}
+
+.kot p{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+/*Podopieczni koniec*/
+
 
 /*Kontakt*/
 
@@ -221,6 +246,18 @@ footer{
     body{
         font-size: 1.3rem;
     }
+
+    .podopieczni{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .kot{
+        display: inline-block;
+        width: 45%;
+    }
 }
 
 @media (min-width: 768px) {
@@ -260,6 +297,10 @@ footer{
     body{
         font-size: 1.7rem;
     }
+
+    .podopieczni{
+        width: 85%;
+    }
 }
 
 @media (min-width: 992px) {
@@ -294,6 +335,14 @@ footer{
     .kafelek hr{
         margin-bottom: 30px;
     }
+
+    .podopieczni{
+        width: 80%;
+    }
+
+    .kot{
+        width: 32%;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -315,6 +364,14 @@ footer{
 
     .kafelek hr{
         margin-bottom: 50px;
+    }
+
+    .podopieczni{
+        width: 75%;
+    }
+
+    .kot{
+        width: 24%;
     }
 
 }
