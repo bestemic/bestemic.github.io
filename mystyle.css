@@ -117,12 +117,19 @@ footer{
 
 .onas .kafelek{
     width: 90%;
-    margin: 50px auto;
+    margin: 25px auto;
 }
 
 .onas img{
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9)
+}
+
+.kafelek hr{
+    margin-bottom: 20px;
+    color: #cd5700;
+    border: 3px solid;
+    width: 20%;
 }
 
 /*O nas koniec*/
@@ -272,16 +279,20 @@ footer{
 
     .onas .kafelek{
         width: 45%;
-        display: inline-block;
-        margin: 15px auto;
+        margin: auto auto;
     }
 
     .article-row{
-        margin: 0 auto;
+        display: flex;
+        margin: 30px auto;
     }
 
-    .article-row:nth-child(2n) {
+    .article-row:nth-child(2n+1) {
+        flex-direction: row-reverse;
+    }
 
+    .kafelek hr{
+        margin-bottom: 30px;
     }
 }
 
@@ -301,4 +312,9 @@ footer{
     .info{
         margin-left: 20px;
     }
+
+    .kafelek hr{
+        margin-bottom: 50px;
+    }
+
 }
