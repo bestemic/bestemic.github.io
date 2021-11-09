@@ -157,10 +157,13 @@ footer{
 }
 
 .main-info{
-    background-color: white;
+    background-color: rgba(205, 87, 0, 0.8);;
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
     margin: 0 auto 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 
@@ -330,16 +333,13 @@ footer{
     }
 
     .main{
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .main-info{
-        display: inline-block;
         width: 45%;
-        height: 500px;
+        margin: 20px auto;
     }
 
     #iButton{
@@ -393,6 +393,12 @@ footer{
 
     #iButton{
         width: 35%;
+    }
+
+    .main {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
     }
 }
 
