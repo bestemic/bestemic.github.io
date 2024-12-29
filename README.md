@@ -7,7 +7,7 @@
 
 Jest to prosta statyczna strona zbudowana na HTML, CSS i kilku prostych skryptach JavaScript. Dzięki takiej budownie możliwe jest jej uruchomienie i oglądanie na GitHub Pages.
 
-## [Wyświetl stronę](https://bestemic.github.io/static-project-TechnikiWWW/)
+## [Wyświetl stronę](https://bestemic.github.io/static-project-techniki-www/)
 <br>
 
 ----------
